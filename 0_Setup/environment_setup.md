@@ -3,3 +3,5 @@
 3. Create an empty notebook
     * <img src="1_new_colab.png" alt="alt text" width="300px">
 4. Input `print("hello")` and press ⌘ + <kbd>Enter</kbd>
+    * <img src="2_hello-out.png" alt="alt text" width="300px">
+

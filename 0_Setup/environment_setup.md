@@ -10,8 +10,12 @@
 7. Press <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>C</kbd>
     * <img src="4_newcell.png" width="300px">
 8. Input `print("everyone")` and run the code
-9. Find a hotkey to `Delete the cell
+9. Find a hotkey to 'Delete the cell'
     * Tip: to close the hotkeys window without saving, just press <kbd>Esc</kbd>
 10. Delete all cells
 11. Using only keys (no mouse or trackpad) make you notebook look as follows:
     * <img src="5_exercise.png" width="300px">
+12. Configure the following hotkeys:
+    * Next cell: <kbd>⌘</kbd> + <kbd>Down</kbd>
+    * Previous cell: <kbd>⌘</kbd> + <kbd>Up</kbd>
+13. Use two new hotkeys to move up and down between cells

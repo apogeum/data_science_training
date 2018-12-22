@@ -4,4 +4,5 @@
     * <img src="1_new_colab.png" alt="alt text" width="300px">
 4. Input `print("hello")` and press ⌘ + <kbd>Enter</kbd>
     * <img src="2_hello-out.png" alt="alt text" width="300px">
+5. Press <kbd>⌘</kbd> + <kbd>Enter</kbd>
 

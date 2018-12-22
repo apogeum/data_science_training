@@ -1,4 +1,6 @@
 1. Log into your google account
 2. Go to https://colab.research.google.com
 3. Create an empty notebook
-![](1_new_colab.png | width=50px)
+<img src="1_new_colab.png" alt="alt text" width="100px">
+
+

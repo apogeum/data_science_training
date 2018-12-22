@@ -20,4 +20,5 @@
     * Previous cell: <kbd>⌘</kbd> + <kbd>Up</kbd>
 13. Use two new hotkeys to move up and down between cells
 14. Delete all cells
+
 **Congratulations, you wrote your first python code in Colab!!!**

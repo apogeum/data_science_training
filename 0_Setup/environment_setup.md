@@ -19,6 +19,10 @@
     * Next cell: <kbd>⌘</kbd> + <kbd>Down</kbd>
     * Previous cell: <kbd>⌘</kbd> + <kbd>Up</kbd>
 13. Use two new hotkeys to move up and down between cells
-14. Delete all cells
+14. Configure the following hotkey:
+    * Merge focused cell with next cell: <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>=</kbd>
+15. Go to the first cell and use the new hotkey to merge all cells
+16. Execute the single cell that is left
+. Delete all cells
 
 **Congratulations, you wrote your first python code in Colab!!!**

@@ -7,6 +7,7 @@
 * memorize:
     * you have just performed a function call
     * general form of function call is `function_name(function_arguments)`
+    * in this case functtion name is 'print' and there is one argument passed - a text "hello"
     * 'print' is a built-in python function that prints its argument to the screen
 5. **Open hotkeys menu** pressing <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>H</kbd>
     * <img src="3_hotkeys.png" width="300px">

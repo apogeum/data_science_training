@@ -4,7 +4,7 @@
 * memorize:
     * the name to the left is a 'variable'
     * the `=` sign is an 'assignment operator'
-    * the number or text assigned to a variable is either called the variable's 'value' or 'state'
+    * the number or text assigned to a variable is the variable's 'value' or 'state'
 4. Create a new cell, execute the following:
 ```
 print(type(some_int))
@@ -12,7 +12,7 @@ print(type(some_string))
 print(type(some_float))
 ```
 * memorize:
-  * type() is a built-in python function that returns the type of passed variable
+  * type() is a built-in python function that returns the type of its argument
   * int stands for integer number
   * string stands for string of characters
   * float stands for floating point number

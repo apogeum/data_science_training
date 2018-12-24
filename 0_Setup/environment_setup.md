@@ -4,6 +4,10 @@
     * <img src="1_new_colab.png" width="300px">
 4. Input `print("hello")` and **run the code** pressing <kbd>⌘</kbd> + <kbd>Enter</kbd>
     * <img src="2_hello-out.png" width="300px">
+* memorize:
+    * you have just performed a function call
+    * general form of function call is `function_name(function_arguments)`
+    * 'print' is a built-in python function that prints its argument to the screen
 5. **Open hotkeys menu** pressing <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>H</kbd>
     * <img src="3_hotkeys.png" width="300px">
 6. Choose the input box for 'Add code cell', press <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>C</kbd> and choose 'Save'

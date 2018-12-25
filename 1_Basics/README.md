@@ -18,7 +18,7 @@ print(type(some_float))
     * float stands for floating point number
 5. Create a new cell, enter: `type(some_int+1)` and execute
 * notice:
-    * when you execute a cell, the result of the last instruction is always printed
+    * when you execute a cell, the result of the last instruction is always printed, so you don't have to use print() function
     * when you execute a cell containing variables assingment, those variables are available for all following cells
 6. Create a new cell, enter: `type(some_int-1)` and execute
 7. Create a new cell, enter: `type(some_int*2)` and execute

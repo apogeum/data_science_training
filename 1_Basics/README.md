@@ -27,6 +27,7 @@ print(type(some_float))
 * question: why is the type of last 2 cells float?
     * python interprets expressions and assigns them the most suitable type
     * programming languages with this feature are called 'dynamically typed'
+10. Let us try some illegal operations:
     
 
 

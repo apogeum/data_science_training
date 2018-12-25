@@ -1,7 +1,7 @@
 1. Create a new cell, enter: `some_int=10` and execute
 2. Crate a new cell, enter: `some_string="10"` and execute
 3. Create a new cell, enter `some_float=10.0` and execute
-* memorize:
+* remember:
     * the name to the left is a 'variable'
     * the `=` sign is an 'assignment operator'
     * the number or text assigned to a variable is the variable's 'value' or 'state'
@@ -11,7 +11,7 @@ print(type(some_int))
 print(type(some_string))
 print(type(some_float))
 ```
-* memorize:
+* remember:
     * type() is a built-in python function that returns the type of its argument
     * int stands for integer number
     * str stands for string of characters
@@ -27,7 +27,13 @@ print(type(some_float))
 * question: why is the type of last 2 cells float?
     * python interprets expressions and assigns them the most suitable type
     * programming languages with this feature are called 'dynamically typed'
-10. Let us try some illegal operations:
+10. Create a new cell, enter: `some_int/0` and execute
+* remember:
+    * if an unexpected or illegal operation is executed, python execution system will throw an `exception`
+    * you can define and throw your own exceptions, we will explore it in further chapters
+11. Create a new cell, enter: `some_string + 1` and execute
+* question: can you tell the reason for the exception you see?
+
     
 
 

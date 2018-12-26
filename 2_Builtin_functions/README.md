@@ -23,4 +23,14 @@ question: round the number `0.123456789` to 6 decimal places
 17. execute `str(10)`
 18. execute `str(10.0)`
 19. try to guess what `str()` is doing and then use `help()` to confirm
-20. execute `int("10")
+20. execute `int("10")`
+21. execute `int("10")`
+* question: why do we see the exception?
+22. execute `float("10")`
+23. execute `float("10.1")`
+24. execute `float("1O")`
+* question: why do we see the exception?
+25. execute `str(10)`
+26. execute `str(10.123)`
+
+

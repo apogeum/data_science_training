@@ -11,5 +11,16 @@
 8. execute `pow(2,3)`
 9. execute `pow(3,2)`
 question: how would you use `pow()` to calculate square root of 1089?
-10. an inverse of number n is 1/n. Express inverse of 5 using only `pow()` function. Don't use `/` operator.
-hint: 1/x = x<sup>-1</sup>
+10. an inverse of number n is 1/n. Express inverse of 5 using only `pow()` function.
+* hint: 1/x = x<sup>-1</sup>
+11. execute `round(2)`
+12. execute `round(2.2)`
+13. execute `round(2.5)`
+14. execute `round(2.6)`
+15. execute `round(0.123456789, 1)`
+16. execute `round(0.123456789, 2)`
+question: round the number `0.123456789` to 6 decimal places
+17. execute `str(10)`
+18. execute `str(10.0)`
+19. try to guess what `str()` is doing and then use `help()` to confirm
+20. execute `int("10")

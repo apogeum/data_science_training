@@ -30,6 +30,7 @@ print(type(some_float))
 10. Create a new cell, enter: `some_int/0` and execute
 * remember:
     * if an unexpected or illegal operation is executed, python execution system will throw an `exception`
+    * well designed exception should clearly indicate what went wrong
     * you can define and throw your own exceptions, we will explore it in further chapters
 11. Create a new cell, enter: `some_string + 1` and execute
 * question: can you tell the reason for the exception you see?

@@ -4,7 +4,7 @@
 * remember:
     * the name to the left is a 'variable'
     * the `=` sign is an 'assignment operator'
-    * the number or text assigned to a variable is the variable's 'value' or 'state'
+    * the number or text assigned to a variable is the 'value' or 'state' of that variable
 4. Create a new cell, execute the following:
 ```
 print(type(some_int))

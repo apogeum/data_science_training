@@ -1,33 +1,52 @@
-1. Log into your google account
-2. Go to https://colab.research.google.com
-3. Create an empty notebook
-    * <img src="1_new_colab.png" width="300px">
-4. Input `print("hello")` and **run the code** pressing <kbd>⌘</kbd> + <kbd>Enter</kbd>
-    * <img src="2_hello-out.png" width="300px">
-* memorize:
-    * you have just performed a function call
-    * general form of function call is `function_name(function_arguments)`
-    * in this case functtion name is 'print' and there is one argument passed - a text "hello"
-    * 'print' is a built-in python function that prints its argument to the screen
-5. **Open hotkeys menu** pressing <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>H</kbd>
-6. Choose the input box for 'Add code cell', press <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>C</kbd> and choose 'Save'
-    * <img src="3_hotkeys.png" width="300px">
-7. Press <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>C</kbd>
-    * <img src="4_newcell.png" width="300px">
-8. Input `print("everyone")` and run the code
-9. Find a hotkey to 'Delete the cell'
-    * Tip: to close the hotkeys window without saving, just press <kbd>Esc</kbd>
-10. Delete all cells
-11. Using only keys (no mouse or trackpad) make you notebook look as follows:
-    * <img src="5_exercise.png" width="300px">
-12. Configure the following hotkeys:
-    * Next cell: <kbd>⌘</kbd> + <kbd>Down</kbd>
-    * Previous cell: <kbd>⌘</kbd> + <kbd>Up</kbd>
-13. Use two new hotkeys to move up and down between cells
-14. Configure the following hotkey:
-    * Merge focused cell with next cell: <kbd>⌘</kbd> + <kbd>M</kbd> then <kbd>=</kbd>
-15. Go to the first cell and use the new hotkey to merge all cells
-16. Execute the single cell that is left
-. Delete all cells
+* Go to https://colab.research.google.com  
+  This is a programming environment called Colab.  
+  It will be your primary tool throughout the course.  
+  It requires a google account, so you will be asked to login.  
+  If you do not have a google account, please create one first.  
+---
+* Create an empty notebook  
+  <img src="new_notebook2.png" width="300px">  
+  <img src="new_notebook1.png" width="300px">   
+  A notebook is a collection of programming instructions.  
+  It contains one or more cells.  
+  Each cell contains one or more lines of code.  
+  <img src="the-cell.png" width="300px">  
+---
+* Enter `print("hello")` into the cell  
+* **run the cell** by pressing <kbd>cmd</kbd> + <kbd>Enter</kbd>  
+  Note: to **run the cell** means to execute the code in the cell.
+  Your output should look as follows:  
+  <img src="hello-out.png" width="300px">  
+  You have just performed a function call!  
+  Function call looks like this: `function_name(argument1, argument2, ..., argumentN)`  
+  Your function name is `print` and there is one argument - a string of characters `"hello"`  
+  `print()` is a python function that prints its argument so we can observe the output on the screen  
+* Delete all code, write `"hello"` and press <kbd>cmd</kbd> + <kbd>Enter</kbd>  
+  Notice that although you don't use the `print()` function, you can still see the argument  
+  This is how Colab works, it always prints result of the last line in each cell  
+* See it for yourself: under `"hello"` write a new line: `65537`, press <kbd>cmd</kbd> + <kbd>Enter</kbd>  
+* Change `"hello"` into `print("hello")`, press <kbd>cmd</kbd> + <kbd>Enter</kbd>  
+---
+* When programming, it is very useful to know keyboard shortcuts in your tools
+* Open **Keyboard Shortcuts** by pressing <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>H</kbd>
+* Find a box labelled 'Add code cell', click on the input box, press <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd> and click 'Save'
+  <img src="hotkeys.png" width="300px">
+* Press <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
+  <img src="newcell.png" width="300px">
+* In the new cell, enter `"everyone"` and run the code. 
+---
+  In order to keep your programs clean, try not to write too much code in one cell.  
+  You can create as many cells as needed. 
+* Find a shortcut to 'Delete the cell'.  
+  Remember: to bring up shortcuts window, press <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>H</kbd>  
+  Tip: to close shortcuts window without saving, just press <kbd>Esc</kbd>
+* Delete all cells using the keyboard shortcut
+* Using keyboard shortcuts create 3 empty cells.  
+* Move your cursor between the cell using <kbd>up</kbd> or <kbd>down</kbd>  
+* Write and execute:
+  * first cell: `"hello"`
+  * second cell: `"world"`
+  * third cell: `1234`
+* Delete all cells
 
 **Congratulations, you wrote your first python code in Colab!!!**

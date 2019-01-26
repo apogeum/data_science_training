@@ -1,42 +1,47 @@
-1. Create a new cell, enter: `some_int=10` and execute
-2. Crate a new cell, enter: `some_string="10"` and execute
-3. Create a new cell, enter `some_float=10.0` and execute
-* remember:
-    * the name to the left is a 'variable'
-    * the `=` sign is an 'assignment operator'
-    * the number or text assigned to a variable is the 'value' or 'state' of that variable
-4. Create a new cell, execute the following:
-```
-print(type(some_int))
-print(type(some_string))
-print(type(some_float))
-```
-* remember:
-    * type() is a built-in python function that returns the type of its argument
-    * int stands for integer number
-    * str stands for string of characters
-    * float stands for floating point number
-5. Create a new cell, enter: `type(some_int+1)` and execute
-* notice:
-    * when you execute a cell, the result of the last instruction is always printed, so you don't have to use print() function
-    * when you execute a cell containing variables assingment, those variables are available for all following cells
-6. Create a new cell, enter: `type(some_int-1)` and execute
-7. Create a new cell, enter: `type(some_int*2)` and execute
-8. Create a new cell, enter: `type(some_int*2.0)` and execute
-9. Create a new cell, enter: `type(some_int/2)` and execute
-* question: why is the type of last 2 cells float?
-    * python interprets expressions and assigns them the most suitable type
-    * programming languages with this feature are called 'dynamically typed'
-10. Create a new cell, enter: `some_int/0` and execute
-* remember:
-    * if an unexpected or illegal operation is executed, python execution system will throw an `exception`
-    * well designed exception should clearly indicate what went wrong
-    * you can define and throw your own exceptions, we will explore it in further chapters
-11. Create a new cell, enter: `some_string + 1` and execute
-* question: can you tell the reason for the exception you see?
+  remember:  
+  create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
+  run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
+  delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
+* Create a new cell, enter: `someint=10` and run it
+* Crate a new cell, enter: `somestring="10"` and run it
+* Create a new cell, enter `somefloat=10.0` and run it  
+  The name to the left is a 'variable'. `someint` is a variable named 'someint'.  
+  The `=` sign is an 'assignment operator'.  
+  The number or text assigned to a variable is the 'value' or 'state' of that variable.  
+  We say: 'someint' variable is assigned a value of 10  
+  or: the state of variable 'someint' is 10.
+---
+* Create 3 new cells, write the following code and execute:
+* cell 1: `type(some_int)`
+* cell 2: `type(some_string)`
+* cell 3: `type(some_float))`  
+  Notice we used a new function named **type**  
+  type() is a python function returning type of its argument  
+  int stands for integer number  
+  str stands for string of characters  
+  float stands for floating point number  
+---
+* Create a new cell, enter: `type(some_int+1)` and run  
+  notice:  
+  when you run a cell with variable assingment, those variables can be accessed in all following cells.
+* Create a new cell, enter: `type(some_int-1)` and run  
+* Create a new cell, enter: `type(some_int*2)` and run  
+* Create a new cell, enter: `type(some_int*2.0)` and run  
+* Create a new cell, enter: `type(some_int/2)` and run  
+  Question: Why is the type of last 2 cells float?  
+  Answer:  
+  Python interprets expressions and assigns them the most suitable type.  
+  Result of multiplying an integer by float is assumed to be float.
+  Programming languages with such feature are called **dynamically typed**
+---
+* Create a new cell, enter: `some_int/0` and run  
+  Remember:  
+  When unexpected or illegal operation is executed, python will **throw an exception**  
+  Well designed exception should clearly indicate what went wrong.  
+  You can define and throw custom exceptions, we will explore it in further chapters.
+* Create a new cell, enter: `some_string + 1` and run
+  Question: What is the reason for the exception you see?
+
+**Congratulations, you found out about variables, types and exceptions!**
 
     
-
-
-
-

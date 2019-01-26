@@ -13,11 +13,11 @@
   <img src="the-cell.png" width="300px">  
 ---
 * Enter `print("hello")` into the cell  
-* **run the cell** by pressing <kbd>cmd</kbd> + <kbd>Enter</kbd>  
+* **run the cell** by clicking the run button or by pressing <kbd>cmd</kbd> + <kbd>Enter</kbd>  
   Note: to **run the cell** means to execute the code in the cell.
   Your output should look as follows:  
   <img src="hello-out.png" width="300px">  
-  You have just performed a function call!  
+  You have just performed a **function call**!  
   Function call looks like this: `function_name(argument1, argument2, ..., argumentN)`  
   Your function name is `print` and there is one argument - a string of characters `"hello"`  
   `print()` is a python function that prints its argument so we can observe the output on the screen  
@@ -29,8 +29,11 @@
 ---
 * When programming, it is very useful to know keyboard shortcuts in your tools
 * Open **Keyboard Shortcuts** by pressing <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>H</kbd>
-* Find a box labelled 'Add code cell', click on the input box, press <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd> and click 'Save'
-  <img src="hotkeys.png" width="300px">
+* Browse for 'Add code cell', click on the input box
+* When the box is highlighted in blue, press <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
+  The keys should appear in the box:  
+  <img src="hotkeys.png" width="600px">  
+* Click Save  
 * Press <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
   <img src="newcell.png" width="300px">
 * In the new cell, enter `"everyone"` and run the code. 
@@ -40,8 +43,9 @@
 * Find a shortcut to 'Delete the cell'.  
   Remember: to bring up shortcuts window, press <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>H</kbd>  
   Tip: to close shortcuts window without saving, just press <kbd>Esc</kbd>
-* Delete all cells using the keyboard shortcut
+* Delete all cells using a keyboard shortcut.
 * Using keyboard shortcuts create 3 empty cells.  
+  Hint: remember the shortcut you created: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>
 * Move your cursor between the cell using <kbd>up</kbd> or <kbd>down</kbd>  
 * Write and execute:
   * first cell: `"hello"`

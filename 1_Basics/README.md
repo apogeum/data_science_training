@@ -10,8 +10,10 @@
 Let's get started with variables  
 * Create a new cell
 * Enter:  
-  ```someint=10
-  print(someint)```  
+  ```
+  someint=10
+  print(someint)
+  ```  
  The `someint` is a **variable**.  
  The `=` sign is an **assignment**.  
   Variables have their corresponding **values**.  

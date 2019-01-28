@@ -45,8 +45,8 @@ Now let's learn about types
   Function calls have a form `function_name(argument1, argument 2, ..., argumentN)`.  
   We have used a python function named **type**.  
   We passed `someint` variable as an **argument** to the function.  
-  This function tells us what is the type of the variable.   
-  In this caseInt stands for integer number.  
+  This function tells us what is the type of the argument.   
+  In this case `int` stands for integer number.  
 * Run a new cell:  
   ```
   type(somestring)

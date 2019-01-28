@@ -50,6 +50,10 @@ Now let's learn about types
   ```
   type(someint)
   ```  
+  Output:  
+  ```
+  'int'
+  ```  
   We have just made a **function** call, which you may recall from previous chapter.  
   Function call has a form of `function_name(argument1, argument 2, ..., argumentN)`.  
   We have used a built-in function named **type**.  
@@ -63,11 +67,19 @@ Let's try another types.
   ```
   type(somestring)
   ```  
+  Output:  
+  ```
+  str
+  ```  
   In this case the function returns `str` which stands for **string of characters**.  
   String type represents a sequence of characters (text) e.g. "hello", "ten", "This is a fox. Hello fox!"  
 * Run a new cell:  
   ```
   type(somefloat)
+  ```  
+  Output:  
+  ```
+  float
   ```  
   In this case the function returns `float` which stands for **floating point number**.  
   Float type represents a number that has a decimal place, e.g. 1.1, 2.0, -7.0002, 0.001.

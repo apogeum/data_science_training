@@ -73,6 +73,7 @@ Let's try another types.
   ```  
   In this case the function returns `str` which stands for **string of characters**.  
   String type represents a sequence of characters (text) e.g. "hello", "ten", "This is a fox. Hello fox!"  
+  
 * Run a new cell:  
   ```
   type(somefloat)

@@ -19,7 +19,7 @@ Let's get started with variables
   10
   ```  
  The `someint` is our **variable**.  
- The `=` sign is called **assignment**.  
+ The `=` symbol is called **assignment**.  
  We say the variable `someint` has been assigned a **value** of 10.    
   
 Let's try assigning some more variables.  

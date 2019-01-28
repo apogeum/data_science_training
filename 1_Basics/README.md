@@ -39,7 +39,7 @@ Now let's learn about types
   ```
   type(someint)
   ```  
-  You may recall from previous chapter that we have just made a function call.
+  You may recall from previous chapter that this is a function call.
   Function calls have a form `function_name(argument1, argument 2, ..., argumentN)`.  
   We have used a python function named **type**.  
   We passed `someint` variable as an argument to the function.  

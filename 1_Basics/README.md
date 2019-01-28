@@ -21,10 +21,9 @@ Let's try assigning some more variables.
 * Create a new cell, enter: `somestring="10"` and run it
 * Create a new cell, enter `somefloat=10.0` and run it
 ---
-* Create 3 new cells, write the following code and execute:
-* cell 1: `type(some_int)`
-* cell 2: `type(some_string)`
-* cell 3: `type(some_float))`  
+* Create a cell `type(some_int)` and run it
+* Create a cell `type(some_string)` and run it
+* Create a cell `type(some_float))` and run it
   Notice we used a new function named **type**  
   type() is a python function returning type of its argument  
   int stands for integer number  

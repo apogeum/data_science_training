@@ -20,7 +20,7 @@ Let's get started with variables
   ```  
  The `someint` is our **variable**.  
  The `=` symbol is called **assignment**.  
- We say the variable `someint` has been assigned a **value** of 10.    
+ After running the cell, the variable `someint` has been assigned a **value** of 10.    
   
 Let's try assigning some more variables.  
 * Run a new cell:  

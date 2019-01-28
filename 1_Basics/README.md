@@ -9,9 +9,11 @@
 ---
 Let's get started with variables  
 * Create a new cell
-* Enter: `someint=10`    
-  The `someint` is a **variable**.  
-  The `=` sign is an **assignment**.  
+* Enter:  
+  ```someint=10
+  print(someint)```  
+ The `someint` is a **variable**.  
+ The `=` sign is an **assignment**.  
   Variables have their corresponding **values**.  
 * Run the cell  
   The variable `someint` is assigned a value of 10.  
@@ -23,7 +25,7 @@ Let's try assigning some more variables.
 * Create a new cell, enter `somefloat=10.0` and run
 ---
 Now let's learn about types  
-* Create a cell `type(some_int)` and run
+* Create a cell `type(some_int)`
 * Create a cell `type(some_string)` and run
 * Create a cell `type(some_float))` and run  
   Notice we used a new function named **type**  
@@ -32,6 +34,7 @@ Now let's learn about types
   str stands for string of characters  
   float stands for floating point number  
 ---
+
 * Create a new cell: `type(some_int+1)` and run  
   notice:  
   when you run a cell with variable assingment, those variables can be accessed in all following cells.

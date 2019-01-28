@@ -1,7 +1,7 @@
   remember:  
-  create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
-  run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
-  delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
+  to create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
+  to run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
+  to delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
 * Go to https://colab.research.google.com and create a new notebook.
 ---
 * Create a new cell, enter: `someint=10` and run it

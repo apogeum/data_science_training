@@ -41,7 +41,7 @@ Now let's learn about types
   ```
   type(someint)
   ```  
-  We have just made a function call, which you may recall from previous chapter.  
+  We have just made a **function** call, which you may recall from previous chapter.  
   Function calls have a form `function_name(argument1, argument 2, ..., argumentN)`.  
   We have used a python function named **type**.  
   We passed `someint` variable as an **argument** to the function.  
@@ -60,18 +60,18 @@ Now let's learn about types
 ---
 Time to do some operations with our variables.  
 * Run a new cell:
-```
-someint+1
-```  
+  ```
+  someint+1
+  ```  
 * Run a new cell:
-```
-somefloat+1
-```  
+  ```
+  somefloat+1
+  ```  
 * Run a new cell:
-```
-someint + somefloat
-```  
-The variables `someint` and `somefloat` are both **numeric types** so it is safe to perform operations like + or - with different typess.
+  ```
+  someint + somefloat
+  ```  
+  The variables `someint` and `somefloat` are both **numeric types** so it is safe to perform operations like + or - with different typess.
 
 ---
 * Create a new cell: `type(some_int+1)` and run  

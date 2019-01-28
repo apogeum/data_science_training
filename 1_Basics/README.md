@@ -14,9 +14,9 @@
   We can also say that the **state** of variable `someint` is 10.  
   
   
-  Let's try assigning some more variables.  
-* Create a new cell, enter: `somestring="10"` and run it  
-* Create a new cell, enter `somefloat=10.0` and run it  
+Let's try assigning some more variables.  
+* Create a new cell, enter: `somestring="10"` and run it
+* Create a new cell, enter `somefloat=10.0` and run it
 ---
 * Create 3 new cells, write the following code and execute:
 * cell 1: `type(some_int)`

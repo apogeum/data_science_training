@@ -14,13 +14,13 @@ Let's get started with variables
   someint=10
   print(someint)
   ```  
-* Run the cell, the output should look as follows:  
+* Run the cell and the output should be:  
   ```
   10
   ```  
- The `someint` is a **variable**.  
- The `=` sign is an **assignment**.  
-  Variables have their corresponding **values**.  
+ The `someint` is our **variable**.  
+ The `=` sign is called **assignment**.  
+ Variables have their corresponding **values**.  
   
   The variable `someint` is assigned a value of 10.  
   We can also say that the **state** of variable `someint` is 10.  
@@ -39,9 +39,18 @@ Let's try assigning some more variables.
   ```  
 ---
 Now let's learn about types  
-* Create a cell `type(some_int)`
-* Create a cell `type(some_string)` and run
-* Create a cell `type(some_float))` and run  
+* Run a new cell:  
+  ```
+  type(someint)
+  ```  
+* Run a new cell:  
+  ```
+  type(somestring)
+  ```  
+* Run a new cell:  
+  ```
+  type(somefloat)
+  ```  
   Notice we used a new function named **type**  
   type() is a python function returning type of its argument  
   int stands for integer number  

@@ -20,7 +20,9 @@ Let's get started with variables
   ```  
  The `someint` is our **variable**.  
  The `=` symbol is called **assignment**.  
- After running the cell, the variable `someint` has been assigned a **value** of 10.    
+ After running the cell, the variable `someint` has been assigned a **value** of 10.  
+ Assignment operation does not result in any output.  
+ That is why we use `print()` function to be able to view our variable.
   
 Let's try assigning some more variables.  
 * Run a new cell:  
@@ -42,9 +44,9 @@ Now let's learn about types
   We have just made a function call, which you may recall from previous chapter.  
   Function calls have a form `function_name(argument1, argument 2, ..., argumentN)`.  
   We have used a python function named **type**.  
-  We passed `someint` variable as an argument to the function.  
-  The **type** function tells us what is the type of the variable.   
-  Int stands for integer number.  
+  We passed `someint` variable as an **argument** to the function.  
+  This function tells us what is the type of the variable.   
+  In this caseInt stands for integer number.  
 * Run a new cell:  
   ```
   type(somestring)
@@ -61,6 +63,15 @@ Time to do some operations with our variables.
 ```
 someint+1
 ```  
+* Run a new cell:
+```
+somefloat+1
+```  
+* Run a new cell:
+```
+someint + somefloat
+```  
+The variables `someint` and `somefloat` are both **numeric types** so it is safe to perform operations like + or - with different typess.
 
 ---
 * Create a new cell: `type(some_int+1)` and run  

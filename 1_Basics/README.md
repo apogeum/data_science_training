@@ -22,7 +22,7 @@ Let's get started with variables
  The `=` symbol is called **assignment**.  
  After running the cell, the variable `someint` has been assigned a **value** of 10.  
  Assignment operation does not result in any output.  
- That is why we use `print()` function to be able to view our variable.
+ That is why we use `print()` function to be able to view our assigned value.
   
 Let's try assigning some more variables.  
 * Run a new cell:  

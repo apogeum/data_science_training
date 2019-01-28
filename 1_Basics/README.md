@@ -18,8 +18,8 @@
   
   
 Let's try assigning some more variables.  
-* Create a new cell, enter: `somestring="10"` and run it
-* Create a new cell, enter `somefloat=10.0` and run it
+* Create a new cell, enter: `somestring="10"` and run
+* Create a new cell, enter `somefloat=10.0` and run
 ---
 * Create a cell `type(some_int)` and run
 * Create a cell `type(some_string)` and run

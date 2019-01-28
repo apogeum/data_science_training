@@ -52,7 +52,7 @@ Now let's learn about types
   ```  
   Output:  
   ```
-  'int'
+  int
   ```  
   We have just made a **function** call, which you may recall from previous chapter.  
   Function call has a form of `function_name(argument1, argument 2, ..., argumentN)`.  

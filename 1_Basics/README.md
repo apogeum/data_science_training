@@ -2,6 +2,8 @@
   create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
   run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
   delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
+* Go to https://colab.research.google.com and create a new notebook.
+---
 * Create a new cell, enter: `someint=10` and run it
 * Crate a new cell, enter: `somestring="10"` and run it
 * Create a new cell, enter `somefloat=10.0` and run it  
@@ -10,7 +12,6 @@
   The number or text assigned to a variable is the 'value' or 'state' of that variable.  
   We say: 'someint' variable is assigned a value of 10  
   or: the state of variable 'someint' is 10.
-* Go to https://colab.research.google.com and create a new notebook.
 ---
 * Create 3 new cells, write the following code and execute:
 * cell 1: `type(some_int)`

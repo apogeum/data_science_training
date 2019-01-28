@@ -5,13 +5,15 @@
 * Go to https://colab.research.google.com and create a new notebook.
 ---
 * Create a new cell, enter: `someint=10` and run it
-* Crate a new cell, enter: `somestring="10"` and run it
-* Create a new cell, enter `somefloat=10.0` and run it  
-  The name to the left is a 'variable'. `someint` is a variable named 'someint'.  
-  The `=` sign is an 'assignment operator'.  
-  The number or text assigned to a variable is the 'value' or 'state' of that variable.  
+  `someint` is a **variable**.  
+  The `=` sign is an **assignment**.  
+  You can assign a number or a text to the variable.
+  It is called the variable's **value** or **state**
+  The number or text assigned to a variable is the  of that variable.  
   We say: 'someint' variable is assigned a value of 10  
   or: the state of variable 'someint' is 10.
+* Crate a new cell, enter: `somestring="10"` and run it
+* Create a new cell, enter `somefloat=10.0` and run it  
 ---
 * Create 3 new cells, write the following code and execute:
 * cell 1: `type(some_int)`

@@ -39,21 +39,30 @@ Now let's learn about types
   ```
   type(someint)
   ```  
+  You may recall from previous chapter that we have just made a function call.
+  Function calls have a form `function_name(argument1, argument 2, ..., argumentN)`.  
+  We have used a python function named **type**.  
+  We passed `someint` variable as an argument to the function.  
+  The **type** function tells us what is the type of the variable.   
+  Int stands for integer number.  
 * Run a new cell:  
   ```
   type(somestring)
   ```  
+  Str means **string of characters**.  
 * Run a new cell:  
   ```
   type(somefloat)
   ```  
-  Notice we used a new function named **type**  
-  type() is a python function returning type of its argument  
-  int stands for integer number  
-  str stands for string of characters  
-  float stands for floating point number  
+  Float means **floating point number**.  
 ---
+Time to do some operations with our variables.  
+* Run a new cell:
+```
+someint+1
+```  
 
+---
 * Create a new cell: `type(some_int+1)` and run  
   notice:  
   when you run a cell with variable assingment, those variables can be accessed in all following cells.

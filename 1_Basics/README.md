@@ -27,7 +27,7 @@ Let's get started with variables
 Let's try defining some more variables:  
 * Run a new cell:  
   ```
-  somestring="10"
+  somestring="ten"
   print(somestring)
   ```  
 * Run a new cell:  
@@ -42,59 +42,27 @@ Now let's learn about types
   type(someint)
   ```  
   We have just made a **function** call, which you may recall from previous chapter.  
-  Function calls have a form `function_name(argument1, argument 2, ..., argumentN)`.  
+  Function call has a form `function_name(argument1, argument 2, ..., argumentN)`.  
   We have used a python function named **type**.  
-  We passed `someint` variable as an **argument** to the function.  
-  This function tells us what is the type of the argument.   
+  We passed `someint` variable as an **argument** to this function.  
+  This function tells us what is the type of our argument.   
   In this case the function returns `int` which stands for **integer type**.  
+  Integer type represents whole numbers e.g. 1, 10, 0, -115.  
+  
+Let's try another types.  
 * Run a new cell:  
   ```
   type(somestring)
   ```  
-  Str means **string of characters**.  
+  In this case the function returns `str` which stands for **string of characters**.  
+  String type represents a sequence of characters (text) e.g. "hello", "ten", "This is a fox. Hello fox!"  
 * Run a new cell:  
   ```
   type(somefloat)
   ```  
-  Float means **floating point number**.  
----
-Time to do some operations with our variables.  
-* Run a new cell:
-  ```
-  someint+1
-  ```  
-* Run a new cell:
-  ```
-  somefloat+1
-  ```  
-* Run a new cell:
-  ```
-  someint + somefloat
-  ```  
-  The variables `someint` and `somefloat` are both **numeric types** so it is safe to perform operations like + or - with different typess.
-
----
-* Create a new cell: `type(some_int+1)` and run  
-  notice:  
-  when you run a cell with variable assingment, those variables can be accessed in all following cells.
-* Create a new cell: `type(some_int-1)` and run  
-* Create a new cell: `type(some_int*2)` and run  
-* Create a new cell: `type(some_int*2.0)` and run  
-* Create a new cell: `type(some_int/2)` and run  
-  Question: Why is the type of last 2 cells float?  
-  Answer:  
-  Python interprets expressions and assigns them the most suitable type.  
-  Result of multiplying an integer by float is assumed to be float.
-  Programming languages with such feature are called **dynamically typed**
----
-* Create a new cell: `some_int/0` and run  
-  Remember:  
-  When unexpected or illegal operation is executed, python will **throw an exception**  
-  Well designed exception should clearly indicate what went wrong.  
-  You can define and throw custom exceptions, we will explore it in further chapters.
-* Create a new cell, enter: `some_string + 1` and run
-  Question: What is the reason for the exception you see?
-
-**Congratulations, you found out about variables, types and exceptions!**
+  In this case the function returns `float` which stands for **floating point number**.  
+  Float type represents a number that has a decimal place, e.g. 1.1, 2.0, -7.0002, 0.001.
+ 
+**Congratulations, you found out about variables and types!**
 
     

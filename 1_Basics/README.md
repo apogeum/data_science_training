@@ -45,7 +45,7 @@ Now let's learn about types
   We have just made a **function** call, which you may recall from previous chapter.  
   Function call has a form of `function_name(argument1, argument 2, ..., argumentN)`.  
   We have used a built-in function named **type**.  
-  We passed `someint` variable as an **argument** to this function.  
+  We passed previously defined `someint` variable as an **argument** to this function.  
   This function tells us what is the type of our argument.   
   In this case the function returns `int` which stands for **integer type**.  
   Integer type represents whole numbers e.g. 1, 10, 0, -115.  

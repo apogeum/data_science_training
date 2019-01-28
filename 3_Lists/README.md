@@ -1,4 +1,4 @@
-* run `thelist=[3,4,1,2]`
+* run `thelist=[3,4,1,2]`  
   Important: you have just created your first variable of type list.  
   `thelist` is just a name of the variable, it can be anything  
   `[3,4,1,2]` is a literal of type List that contains 4 elements in a given order

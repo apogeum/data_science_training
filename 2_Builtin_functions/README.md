@@ -1,3 +1,9 @@
+  remember:  
+  On Windows, instead of <kbd>cmd</kbd> key, use <kbd>ctrl</kbd> key  
+  create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
+  run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
+  delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
+
 Unless otherwise specified, please run each instruction in a new cell.  
 * run `max(2,1,5,4,3)`  
 Question: what do you think `max()` function does?

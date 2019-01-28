@@ -1,48 +1,90 @@
-  remember:  
-  On Windows, instead of <kbd>cmd</kbd> key, use <kbd>ctrl</kbd> key  
-  create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
-  run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
-  delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
-* Create a new cell, enter: `someint=10` and run it
-* Crate a new cell, enter: `somestring="10"` and run it
-* Create a new cell, enter `somefloat=10.0` and run it  
-  The name to the left is a 'variable'. `someint` is a variable named 'someint'.  
-  The `=` sign is an 'assignment operator'.  
-  The number or text assigned to a variable is the 'value' or 'state' of that variable.  
-  We say: 'someint' variable is assigned a value of 10  
-  or: the state of variable 'someint' is 10.
----
-* Create 3 new cells, write the following code and execute:
-* cell 1: `type(some_int)`
-* cell 2: `type(some_string)`
-* cell 3: `type(some_float))`  
-  Notice we used a new function named **type**  
-  type() is a python function returning type of its argument  
-  int stands for integer number  
-  str stands for string of characters  
-  float stands for floating point number  
----
-* Create a new cell, enter: `type(some_int+1)` and run  
-  notice:  
-  when you run a cell with variable assingment, those variables can be accessed in all following cells.
-* Create a new cell, enter: `type(some_int-1)` and run  
-* Create a new cell, enter: `type(some_int*2)` and run  
-* Create a new cell, enter: `type(some_int*2.0)` and run  
-* Create a new cell, enter: `type(some_int/2)` and run  
-  Question: Why is the type of last 2 cells float?  
-  Answer:  
-  Python interprets expressions and assigns them the most suitable type.  
-  Result of multiplying an integer by float is assumed to be float.
-  Programming languages with such feature are called **dynamically typed**
----
-* Create a new cell, enter: `some_int/0` and run  
-  Remember:  
-  When unexpected or illegal operation is executed, python will **throw an exception**  
-  Well designed exception should clearly indicate what went wrong.  
-  You can define and throw custom exceptions, we will explore it in further chapters.
-* Create a new cell, enter: `some_string + 1` and run
-  Question: What is the reason for the exception you see?
+*Remember:*  
+*If you are using Windows, use <kbd>ctrl</kbd> key instead of <kbd>cmd</kbd> key*  
+*To create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>*  
+*To run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>*  
+*To delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>*  
 
-**Congratulations, you found out about variables, types and exceptions!**
+---
+* Go to https://colab.research.google.com and create a new notebook.
+---
+Let's get started with variables  
+* Create a new cell
+* Enter:  
+  ```
+  someint=10
+  print(someint)
+  ```  
+* Run the cell and the output should be:  
+  ```
+  10
+  ```  
+ The `someint` is our **variable**.  
+ The `=` symbol is called **assignment**.  
+ After running the cell, the variable `someint` has been assigned a **value** of 10.  
+ Assignment operation does not result in any output.  
+ That is why we use `print()` function to be able to view our assigned value.
+  
+Let's try defining some more variables:  
+* Run a new cell:  
+  ```
+  somestring="ten"
+  print(somestring)
+  ```  
+  Output:  
+  ```
+  'ten'
+  ```  
+  
+* Run a new cell:  
+  ```
+  somefloat=10.0
+  print(somefloat)
+  ```  
+  Output:  
+  ```
+  10.0
+  ```
+---
+Now let's learn about types  
+* Run a new cell:  
+  ```
+  type(someint)
+  ```  
+  Output:  
+  ```
+  int
+  ```  
+  We have just made a **function** call, which you may recall from previous chapter.  
+  Function call has a form of `function_name(argument1, argument 2, ..., argumentN)`.  
+  We have used a built-in function named **type**.  
+  We passed previously defined `someint` variable as an **argument** to this function.  
+  This function tells us what is the type of our argument.   
+  In this case the function returns `int` which stands for **integer type**.  
+  Integer type represents whole numbers e.g. 1, 10, 0, -115.  
+  
+Let's try another types.  
+* Run a new cell:  
+  ```
+  type(somestring)
+  ```  
+  Output:  
+  ```
+  str
+  ```  
+  In this case the function returns `str` which stands for **string of characters**.  
+  String type represents a sequence of characters (text) e.g. "hello", "ten", "This is a fox. Hello fox!"  
+  
+* Run a new cell:  
+  ```
+  type(somefloat)
+  ```  
+  Output:  
+  ```
+  float
+  ```  
+  In this case the function returns `float` which stands for **floating point number**.  
+  Float type represents a number that has a decimal place, e.g. 1.1, 2.0, -7.0002, 0.001.
+ 
+**Congratulations, you found out about defining variables and basic types!**
 
     

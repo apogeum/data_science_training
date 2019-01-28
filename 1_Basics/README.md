@@ -30,6 +30,7 @@ Let's try defining some more variables:
   somestring="ten"
   print(somestring)
   ```  
+  
 * Run a new cell:  
   ```
   somefloat=10.0

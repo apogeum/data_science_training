@@ -24,7 +24,7 @@ Let's get started with variables
  Assignment operation does not result in any output.  
  That is why we use `print()` function to be able to view our assigned value.
   
-Let's try assigning some more variables.  
+Let's try defining some more variables:  
 * Run a new cell:  
   ```
   somestring="10"

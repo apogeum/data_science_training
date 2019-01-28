@@ -4,7 +4,9 @@
   to delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
 * Go to https://colab.research.google.com and create a new notebook.
 ---
-* Create a new cell, enter: `someint=10` and run it  
+* Create a new cell
+* enter: `someint=10`
+* run the cell    
   `someint` is a **variable**.  
   The `=` sign is an **assignment**.  
   You can assign a number or a text to the variable.  

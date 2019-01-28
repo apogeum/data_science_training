@@ -30,12 +30,20 @@ Let's try defining some more variables:
   somestring="ten"
   print(somestring)
   ```  
+  Output:  
+  ```
+  'ten'
+  ```  
   
 * Run a new cell:  
   ```
   somefloat=10.0
   print(somefloat)
   ```  
+  Output:  
+  ```
+  10.0
+  ```
 ---
 Now let's learn about types  
 * Run a new cell:  

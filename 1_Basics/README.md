@@ -1,5 +1,5 @@
   *Remember:*  
-  On Windows, instead of <kbd>cmd</kbd> key, use <kbd>ctrl</kbd> key  
+  *If you are using Windows, use <kbd>ctrl</kbd> key instead of <kbd>cmd</kbd> key*  
   *To create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>*  
   *To run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>*  
   *To delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>*  

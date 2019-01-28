@@ -1,7 +1,8 @@
 * run `thelist=[3,4,1,2]`  
   Important: you have just created your first variable of type list.  
-  `thelist` is just a name of the variable, it can be anything  
-  `[3,4,1,2]` is a literal of type List that contains 4 elements in a given order
+  `thelist` is our name of the variable, it can be anything  
+  `[3,4,1,2]` is a value of type List that contains 4 numbers in the exact order  
+  
 ---
   Let us try how some of the python functions we learned work on lists.
 * run `type(thelist)`

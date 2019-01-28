@@ -15,9 +15,9 @@ Let's get started with variables
   print(someint)
   ```  
 * Run the cell, the output should look as follows:  
-```
-10
-```  
+  ```
+  10
+  ```  
  The `someint` is a **variable**.  
  The `=` sign is an **assignment**.  
   Variables have their corresponding **values**.  
@@ -28,15 +28,15 @@ Let's get started with variables
   
 Let's try assigning some more variables.  
 * Run a new cell:  
-```
-somestring="10"
-print(somestring)
-```  
+  ```
+  somestring="10"
+  print(somestring)
+  ```  
 * Run a new cell:  
-```
-somefloat=10.0
-print(somefloat)
-```  
+  ```
+  somefloat=10.0
+  print(somefloat)
+  ```  
 ---
 Now let's learn about types  
 * Create a cell `type(some_int)`

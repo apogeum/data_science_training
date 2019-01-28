@@ -9,7 +9,7 @@
   The `someint` is a **variable**.  
   The `=` sign is an **assignment**.  
   Variables have their corresponding **values**  
-* Run the cell
+* Run the cell  
   The variable someint is assigned a value of 10  
   or: the state of variable 'someint' is 10.
 * Crate a new cell, enter: `somestring="10"` and run it

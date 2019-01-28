@@ -1,3 +1,4 @@
+  On Windows, instead of <kbd>cmd</kbd> key, use <kbd>ctrl</kbd> key  
 * Go to https://colab.research.google.com  
   This is a programming environment called Colab.  
   It will be your primary tool throughout the course.  

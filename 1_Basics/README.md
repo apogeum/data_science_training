@@ -11,8 +11,9 @@
   Variables have their corresponding **values**.  
 * Run the cell  
   The variable `someint` is assigned a value of 10.  
-  We can also say that **state** of variable `someint` is 10.  
-* Crate a new cell, enter: `somestring="10"` and run it  
+  We can also say that **state** of variable `someint` is 10. 
+  Let's try assigning some more variables.  
+* Create a new cell, enter: `somestring="10"` and run it  
 * Create a new cell, enter `somefloat=10.0` and run it  
 ---
 * Create 3 new cells, write the following code and execute:

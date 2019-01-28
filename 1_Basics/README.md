@@ -1,17 +1,16 @@
-  remember:  
-  To create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
-  To run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
-  To delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
+  *Remember:*  
+  *To create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>*  
+  *To run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>*  
+  *To delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>*  
 * Go to https://colab.research.google.com and create a new notebook.
 ---
 * Create a new cell
-* Enter: `someint=10`
-* Run the cell    
-  `someint` is a **variable**.  
+* Enter: `someint=10`    
+  The `someint` is a **variable**.  
   The `=` sign is an **assignment**.  
-  You can assign a number or a text to the variable.  
-  It is called the variable's **value** or **state**. 
-  We say: 'someint' variable is assigned a value of 10  
+  Variables have their corresponding **values**  
+* Run the cell
+  The variable someint is assigned a value of 10  
   or: the state of variable 'someint' is 10.
 * Crate a new cell, enter: `somestring="10"` and run it
 * Create a new cell, enter `somefloat=10.0` and run it  

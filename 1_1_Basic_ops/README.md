@@ -10,13 +10,14 @@
 
 ---
 In this chapter we will learn about operations on basic types.  
-* Run the two instructions in one cell:  
+* Run the code in one cell:  
   ```
   zero=0
   first=9
   second=2.0
   third="fox"
   ```  
+  You already know that we have just defined some variables.  
 * Run:
   ```
   first+1

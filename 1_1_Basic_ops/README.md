@@ -22,18 +22,26 @@ In this chapter we will learn about operations on basic types.
   ```
   first+1
   ```  
+  Output:  
+  ```10```
 * Run:
   ```
   second+1
   ```  
+  Output:  
+  ```3.0```
 * Run:
   ```
   first + second
-  ```
+  ```  
+  Output:  
+  ```11.0```
 * Run:
   ```
   first - second
-  ```
+  ```  
+  Output:  
+  ```7.0```  
   Variables `first` and `second` are both **numeric types** so we can mix them in operations, like addition, subtraction, multiplication or division.
 ---
 * Run:

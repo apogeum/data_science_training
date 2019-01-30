@@ -9,7 +9,7 @@
 * Go to https://colab.research.google.com and create a new notebook.
 
 ---
-In this chapter we will learn about basic operations on variables.  
+In this chapter we will learn about operations on basic types.  
 * Run the two instructions in one cell:  
   ```
   zero=0

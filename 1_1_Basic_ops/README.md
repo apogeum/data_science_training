@@ -11,11 +11,11 @@
 ---
 In this chapter we will learn about basic operations on variables.  
 * Run the two instructions in one cell:  
-```
-first=10
-second=2.0
-third="fox"
-```  
+  ```
+  first=10
+  second=2.0
+  third="fox"
+  ```  
 * Run:
   ```
   first+1
@@ -29,17 +29,17 @@ third="fox"
   first + second
   ```
 * Run:
-```
-first - second
-```
+  ```
+  first - second
+  ```
 * Run:
-```
-first * second
-```
+  ```
+  first * second
+  ```
 * Run:
-```
-first / second
-```
+  ```
+  first / second
+  ```
   Variables `first` and `second` are both **numeric types** so we can mix them in operations, like addition, subtraction, multiplication or division.
 
 ---

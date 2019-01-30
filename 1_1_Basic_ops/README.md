@@ -1,19 +1,46 @@
- 
+*Remember:*  
+*If you are using Windows, use <kbd>ctrl</kbd> key instead of <kbd>cmd</kbd> key*  
+*To create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>*  
+*To run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>*  
+*To delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>*  
+*Unless specified otherwise, run each instruction in a **new cell***
+
 ---
-Time to do some operations with our variables.  
-* Run a new cell:
+* Go to https://colab.research.google.com and create a new notebook.
+
+---
+In this chapter we will learn about basic operations on variables.  
+* Run the two instructions in one cell:  
+```
+first=10
+second=2.0
+third="fox"
+```  
+* Run:
   ```
-  someint+1
+  first+1
   ```  
-* Run a new cell:
+* Run:
   ```
-  somefloat+1
+  second+1
   ```  
-* Run a new cell:
+* Run:
   ```
-  someint + somefloat
-  ```  
-  The variables `someint` and `somefloat` are both **numeric types** so it is safe to perform operations like + or - with different typess.
+  first + second
+  ```
+* Run:
+```
+first - second
+```
+* Run:
+```
+first * second
+```
+* Run:
+```
+first / second
+```
+  Variables `first` and `second` are both **numeric types** so we can mix them in operations, like addition, subtraction, multiplication or division.
 
 ---
 * Create a new cell: `type(some_int+1)` and run  

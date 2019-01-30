@@ -12,7 +12,8 @@
 In this chapter we will learn about basic operations on variables.  
 * Run the two instructions in one cell:  
   ```
-  first=10
+  zero=0
+  first=9
   second=2.0
   third="fox"
   ```  
@@ -32,15 +33,34 @@ In this chapter we will learn about basic operations on variables.
   ```
   first - second
   ```
+  Variables `first` and `second` are both **numeric types** so we can mix them in operations, like addition, subtraction, multiplication or division.
 * Run:
   ```
   first * second
   ```
+  Question: What is the type of the result of `first * second`?  
+  Answer: It is float. Python knows that the result of this operation might not be an integer (whole number).  
+  That is why python decides it is safer to assume the result is always float.  
+  Result of mathematical operations between integer and float is assumed to be float.
 * Run:
   ```
   first / second
+  ```  
+* Run:
   ```
-  Variables `first` and `second` are both **numeric types** so we can mix them in operations, like addition, subtraction, multiplication or division.
+  first / zero
+  ```  
+  Output:
+  ```
+  ---------------------------------------------------------------------------
+  ZeroDivisionError                         Traceback (most recent call last)
+  <ipython-input-4-7a5050487faa> in <module>()
+  ----> 1 9/0
+
+  ZeroDivisionError: division by zero
+```
+  Question: Can you tell the cause of the exception by looking at the message you see?
+  
 
 ---
 * Create a new cell: `type(some_int+1)` and run  

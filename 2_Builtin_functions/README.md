@@ -1,10 +1,13 @@
-  remember:  
-  On Windows, instead of <kbd>cmd</kbd> key, use <kbd>ctrl</kbd> key  
-  create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>  
-  run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>  
-  delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>  
+*Remember:*  
+*If you are using Windows, use <kbd>ctrl</kbd> key instead of <kbd>cmd</kbd> key*  
+*To create a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>C</kbd>*  
+*To run a cell: <kbd>cmd</kbd> + <kbd>enter</kbd>*  
+*To delete a cell: <kbd>cmd</kbd> + <kbd>M</kbd> then <kbd>D</kbd>*  
+*Unless specified otherwise, run each instruction in a **new cell***
 
-Unless otherwise specified, please run each instruction in a new cell.  
+---
+* Go to https://colab.research.google.com and create a new notebook.
+---
 * run `max(2,1,5,4,3)`  
 Question: what do you think `max()` function does?
 * run `help(max)`

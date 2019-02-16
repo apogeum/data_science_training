@@ -14,6 +14,7 @@ Question: what do you think `max()` function does?
   `help()` is a python function that explains the meaning of the function passed as an argument.  
   Notice that until now you were only passing variables or values to function.  
   You have just learned that you can pass one function as an argument of another.  
+  When you pass a funtion as an argument, you just use its name without brackets, e.g. `help(print)`  
   It will come very useful in future exercises.
 * Try to guess a function that finds minimum of `2,1,5,4,3` and run it
 * verify your guess with the use of `help()` function

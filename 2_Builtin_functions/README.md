@@ -28,6 +28,7 @@ Question: what do you think `max()` function does?
 * run `pow(3,2)`
 * use `help()` to find out what `pow()` is doing
 * try to use `pow()` to calculate square root of 1089
+* hint: squareroot is often expressed as the power of `1/2``
 * an inverse of number n is 1/n. Express inverse of 5 using only `pow()` function. 
   hint: 1/x = x<sup>-1</sup>
 ---
@@ -41,7 +42,7 @@ Question: what do you think `max()` function does?
 ---
 * run `str(10)`  
   Notice: words enclosed in `"double quotes"` represent **literals of type String**  
-  A literal is a value without name
+  A literal is a value without a name
 * run `str(10.0)`
 * guess what `str()` is doing and then use `help()` to confirm
 ---
@@ -55,7 +56,7 @@ Question: what do you think `max()` function does?
 * run `float("10")`  
   Notice: numbers written with period `.` separating whole and fractional part represent literals of type Float
 * run `float("10.1")`
-* run `float("1O")`  
+* run `float("10,0")`  
   Question: why do we see the exception?
   Answer:
 ---

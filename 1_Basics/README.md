@@ -62,7 +62,7 @@ Now let's learn about types
   In this case the function returns `int` which stands for **integer type**.  
   Integer type represents whole numbers e.g. 1, 10, 0, -115.  
   
-Let's try another types.  
+Let's try another type.  
 * Run a new cell:  
   ```
   type(somestring)

@@ -9,11 +9,9 @@
 * Go to https://colab.research.google.com and create a new notebook.
 ---
 * run 
-```
-max(2,1,5,4,3)
-```  
+```max(2,1,5,4,3)```  
 Question: what do you think `max()` function does?
-* run 
+* run  
 ```help(max)```  
   `help()` is a python function that explains the meaning of the function passed as an argument.  
   Notice that until now you were only passing variables or values to function.  

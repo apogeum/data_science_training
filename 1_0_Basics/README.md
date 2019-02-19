@@ -84,7 +84,7 @@ Let's try another type.
   ```  
   In this case the function returns `float` which stands for **floating point number**.  
   Float type represents a number that has a decimal place, e.g. 1.1, 2.0, -7.0002, 0.001.
- 
+---
 **Congratulations, you found out about defining variables and basic types!**
 
     

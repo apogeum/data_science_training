@@ -8,12 +8,12 @@
 ---
 * Go to https://colab.research.google.com and create a new notebook.
 ---
-* run  
+* Run:  
 ```
 max(2,1,5,4,3)
 ```  
 Question: what do you think `max()` function does?
-* run  
+* Run:  
 ```
 help(max)
 ```  
@@ -25,25 +25,25 @@ help(max)
 * Try to guess a function that finds minimum of `2,1,5,4,3` and run it
 * verify your guess with the use of `help()` function
 ---
-* run  
+* Run:  
 ```
 abs(10)
 ```  
-* run  
+* Run:  
 ```
 abs(-10)
 ```  
-* run 
+* Run: 
 ```
 abs(0)
 ```  
 * try to guess what `abs()` is doing and then use `help()` to confirm
 ---
-* run  
+* Run:  
 ```
 pow(2,3)
 ```  
-* run  
+* Run:  
 ```
 pow(3,2)
 ```  
@@ -53,50 +53,50 @@ pow(3,2)
 * an inverse of number n is 1/n. Express inverse of 5 using only `pow()` function. 
   hint: 1/x = x<sup>-1</sup>
 ---
-* run
+* Run:
 ```
 round(2)
 ```
-* run 
+* Run: 
 ```
 round(2.2)
 ```
-* run 
+* Run: 
 ```
 round(2.5)
 ```
-* run 
+* Run: 
 ```
 round(2.6)
 ```
-* run 
+* Run: 
 ```
 round(0.123456789, 1)
 ```
-* run 
+* Run: 
 ```
 round(0.123456789, 2)
 ```
 * round the number `0.123456789` to 6 decimal places
 ---
-* run 
+* Run: 
 ```
 str(10)
 ```  
   Notice: words enclosed in `"double quotes"` represent **literals of type String**  
   A literal is a value without a name
-* run 
+* Run: 
 ```
 str(10.0)
 ```
 * guess what `str()` is doing and then use `help()` to confirm
 ---
-* run 
+* Run: 
 ```
 int("10")
 ```  
   Notice: whole numbers written without period `.` sign represent literals of type Int
-* run 
+* Run: 
 ```
 int("10.0")
 ```  
@@ -104,33 +104,33 @@ int("10.0")
   Answer: python sees the `.` and assumes there can be fractional part,  
   and decides it is not safe to treat this number as integer.
 ---
-* run 
+* Run: 
 ```
 float("10")
 ```  
   Notice: numbers written with period `.` separating whole and fractional part represent literals of type Float
-* run 
+* Run: 
 ```
 float("10.1")
 ```
-* run 
+* Run: 
 ```
 float("10,0")
 ```  
   Question: why do we see the exception?
   Answer:
 ---
-* run 
+* Run: 
 ```
 bool("True")
 ```  
   Notice: True and False (without quotations) are python literals to express 2 possible states of type **bool**
-* run 
+* Run: 
 ```
 bool("true")
 ```
   Important: bool is a function to transform other types to boolean.  
-* run 
+* Run: 
 ```
 bool("false")
 ```
@@ -139,7 +139,7 @@ bool("false")
   Those assumptions are not always intuitive, so let us test them.
 * try to apply `bool()` function to the following values: `"tRuE", " ", "", 1, -1, 0, 1.1, -1.1, 0.0, None`
 ---
-* run 
+* Run: 
 ```
 type(None)
 ```

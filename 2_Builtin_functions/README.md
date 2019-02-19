@@ -14,7 +14,7 @@ max(2,1,5,4,3)
 ```  
 Question: what do you think `max()` function does?
 * run 
-```help(max)```
+```help(max)```  
   `help()` is a python function that explains the meaning of the function passed as an argument.  
   Notice that until now you were only passing variables or values to function.  
   You have just learned that you can pass one function as an argument of another.  

@@ -49,14 +49,15 @@ In this chapter we will learn about operations on basic types.
   first * second
   ```
   Question: What is the type of the result of `first * second`?  
-  Answer: It is float. Python knows that the result of this operation might not be an integer (whole number).  
+  Answer: It is float. You can deduce it by observing the period symbol `.` separating whole and fractional part.  
+  Python knows that the result of this operation might not be an integer (whole number).  
   That is why python decides it is safer to assume the result is always float.  
   Result of mathematical operations between integer and float is assumed to be float.
 * Run:
   ```
   10/(6-1)
   ```  
-  Notice that here we did not use any variables in the code. We performed numeric operations on **values**.
+  Notice: here we did not use any variables in the code. We performed numeric operations on **values**.
 * Run:
   ```
   result = 2*(3.5+first)/(5.1-6)
@@ -99,6 +100,9 @@ How about mixing strings with other types in addition?
   "haha" / 10
   "haha" * 10
   ```
+* Note: the way math operators `+ - * /` work in programming languages is fairly consitent.  
+  But it is up to developers of the language authors how these operator can work with non-numeric types, like **string**.  
+  Authors of python decided that * operator for string-int pair will mean repeating the string a number of times.  
 ---
   **Congratulations. _encouraging message_**
   

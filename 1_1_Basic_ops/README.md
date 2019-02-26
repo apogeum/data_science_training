@@ -123,9 +123,9 @@ How about mixing strings with other types in addition?
   "haha" / 10
   "haha" * 10
   ```
-* Note: the way math operators `+ - * /` work in programming languages is fairly consitent.  
-  But it is up to developers of the language authors how these operator can work with non-numeric types, like **string**.  
-  Authors of python decided that * operator for string-int pair will mean repeating the string a number of times.  
+* Note: the way math operators `+ - * /` work in programming languages is rather consitent.  
+  But it is up to developers of the language authors how these operator work with non-numeric types, like **string**.  
+  Authors of python decided that applying `*` operator to a string-int pair will result in repeating the string a number of times.  
 ---
   **Congratulations. _encouraging message_**
   

@@ -12,11 +12,28 @@
 ```
 max(2,1,5,4,3)
 ```  
+Output:  
+```
+5
+```  
 Question: what do you think `max()` function does?
 * Run:  
 ```
 help(max)
 ```  
+Output:  
+```
+Help on built-in function max in module builtins:
+
+max(...)
+    max(iterable, *[, default=obj, key=func]) -> value
+    max(arg1, arg2, *args, *[, key=func]) -> value
+    
+    With a single iterable argument, return its biggest item. The
+    default keyword-only argument specifies an object to return if
+    the provided iterable is empty.
+    With two or more arguments, return the largest argument.
+ ```
   `help()` is a python function that explains the meaning of the function passed as an argument.  
   Notice that until now you were only passing variables or values to function.  
   You have just learned that you can pass one function as an argument of another.  
@@ -28,14 +45,26 @@ help(max)
 * Run:  
 ```
 abs(10)
+``` 
+Output:  
+```
+10
 ```  
 * Run:  
 ```
 abs(-10)
 ```  
+Output:  
+```
+10
+```  
 * Run: 
 ```
 abs(0)
+```  
+Output:  
+```
+0
 ```  
 * try to guess what `abs()` is doing and then use `help()` to confirm
 ---
@@ -43,13 +72,21 @@ abs(0)
 ```
 pow(2,3)
 ```  
+Output:  
+```
+8
+```  
 * Run:  
 ```
 pow(3,2)
 ```  
-* use `help()` to find out what `pow()` is doing
-* try to use `pow()` to calculate square root of 1089
-* hint: squareroot is often expressed as the power of `1/2``
+Output:  
+```
+9
+```  
+* Task: use `help()` to find out what `pow()` is doing
+* try to use `pow()` to calculate square root of 1089  
+  hint: squareroot is often expressed as the power of `1/2`  
 * an inverse of number n is 1/n. Express inverse of 5 using only `pow()` function. 
   hint: 1/x = x<sup>-1</sup>
 ---
@@ -57,27 +94,51 @@ pow(3,2)
 ```
 round(2)
 ```
+Output:  
+```
+2
+```  
 * Run: 
 ```
 round(2.2)
 ```
+Output:  
+```
+2
+```  
 * Run: 
 ```
 round(2.5)
 ```
+Output:  
+```
+2
+```  
 * Run: 
 ```
 round(2.6)
 ```
+Output:  
+```
+3
+```  
 * Run: 
 ```
 round(0.123456789, 1)
 ```
+Output:  
+```
+0.1
+```  
 * Run: 
 ```
 round(0.123456789, 2)
 ```
-* round the number `0.123456789` to 6 decimal places
+Output:  
+```
+0.12
+```  
+* Task: round the number `0.123456789` to 6 decimal places
 ---
 * Run: 
 ```

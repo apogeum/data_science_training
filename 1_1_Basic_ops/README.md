@@ -47,6 +47,10 @@ In this chapter we will learn about operations on basic types.
 * Run:
   ```
   first * second
+  ```  
+  Output:
+  ```
+  18.0
   ```
   Question: What is the type of the result of `first * second`?  
   Answer: It is float. You can deduce it by observing the period symbol `.` separating whole and fractional part.  
@@ -57,11 +61,19 @@ In this chapter we will learn about operations on basic types.
   ```
   10/(6-1)
   ```  
+  Output:  
+  ```
+  2.0
+  ```  
   Notice: here we did not use any variables in the code. We performed numeric operations on **values**.
 * Run:
   ```
   result = 2*(3.5+first)/(5.1-6)
   print(result)
+  ```  
+  Output:
+  ```
+  -27.777777777777768
   ```  
   Notice that we can assign the result of an operation to a variable.  
 ---
@@ -85,12 +97,23 @@ Now let's find out what operations can we do on strings.
   ```
   "hello" + " " + third + "!"
   ```  
+  Output:
+  ```
+  'hello fox!'
+  ```  
   Looks like we can add strings together. This operation is usually called **concatenation**.  
 How about mixing strings with other types in addition?  
 * Run:
   ```
   third + 1
+  ```  
+  Output:
   ```
+  TypeError Traceback (most recent call last)
+  <ipython-input-7-05d7bd683ef1> in <module>()
+  ----> 1 third + 1
+  TypeError: must be str, not int
+  ```  
   Question: What is the reason for the exception you see?  
 ---
 * Task: Only one of below operations is allowed.  
